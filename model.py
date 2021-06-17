@@ -24,7 +24,6 @@ def home():
 @app.route('/flask', methods=['POST'])
 def index():
     asked_question = " "
-    print("ohh haa")
     try:
         # conn = psycopg2.connect(database="d8vvied9p5rnob", user="dyhgctjqbmdgzi",
         #                         password="f42f02ba1dec14620f2ee83428f08c834f39edf81ed018d48669ebbfdbc4bb44", host="ec2-23-22-191-232.compute-1.amazonaws.com", port="5432")
@@ -89,7 +88,7 @@ def index():
 
                 ans = ans_list[max_similarity_index]
                 ans_id = id_list[max_similarity_index]
-                print("answer id", ans_id)
+                # print("answer id", ans_id)
 
                 # hold = Query_table.objects.get(id = ans_id)
                 # hold.viewed = hold.viewed + 1
