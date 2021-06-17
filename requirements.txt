@@ -1,0 +1,14 @@
+click
+flask
+Flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+psycopg2
+nltk
+gensim
+python-Levenshtein
+keras
+tensorflow
